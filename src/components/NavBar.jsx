@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import './NavBar.css';
+
 
 class NavBar extends Component {
 
@@ -13,16 +15,21 @@ class NavBar extends Component {
     render() {
         return (
             <div>
-                <nav className="nav-wrapper cyan">
+                <nav className="nav-wrapper transparent">
                     <div className="container">
-                        <a href="#" className="brand-logo left"><span class="material-icons">sports_volleyball</span><span> Material</span></a>
+                        <a href="#" className="brand-logo left"><span class="material-icons">sports_volleyball</span> <span>Avantyura</span></a>
                         <a href="#" data-target="slide-out" className="sidenav-trigger right hide-on-med-and-up"><i className="material-icons">menu</i></a>
 
                         <ul className="right hide-on-small-only">
                             <li><a href="#">Home</a></li>
                             <li><a href="#">About</a></li>
                             <li><a href="#">Contact</a></li>
-                            <li><a href="#">Login</a></li>
+                            <li>
+                                <a href="#" className="btn-floating cyan darken-4 z-depth-0">
+                                    <i class="material-icons">notifications</i>
+                                </a>
+                            </li>
+                            <li><span className="badge white-text pink new notifications">5</span></li>
                         </ul>
                     </div>
 
@@ -32,7 +39,7 @@ class NavBar extends Component {
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
-                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Notifications<span className="badge white-text pink new">5</span></a></li>
                 </ul>
 
 

@@ -8,10 +8,10 @@
 
 html{
   box-sizing: border-box;
-  font-size: 62.5%; /*make 1rem = 10px so that calculations are easier */
+ /* font-size: 62.5%; /*make 1rem = 10px so that calculations are easier */
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.6rem; /* 16 pixels */
+  /* font-family: 'Roboto', sans-serif; */
+  /*font-size: 1.6rem; /* 16 pixels */
 }

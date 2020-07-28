@@ -1,0 +1,28 @@
+.tab-card{
+    transform: translateY(-20%);
+    height: 200px;
+}
+
+.tabs .indicator{
+    background-color: #00bcd4;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+    background: transparent;
+    color: #00bcd4;
+}
+
+.tabs .tab a {
+    color:#00bcd4;
+    
+}
+
+.tabs .tab a:hover, .tabs .tab a:focus.hover{
+   
+    color: #80deea ;
+}
+
+ .tabs .tab a.active {
+    background-color: transparent;
+    color: #00bcd4;
+}

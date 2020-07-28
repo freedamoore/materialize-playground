@@ -1,7 +1,4 @@
-.tab-card{
-    transform: translateY(-20%);
-    height: 200px;
-}
+
 
 .tabs .indicator{
     background-color: #00bcd4;
@@ -25,4 +22,14 @@
  .tabs .tab a.active {
     background-color: transparent;
     color: #00bcd4;
+}
+
+/* classes defined by me */
+.tab-card{
+    transform: translateY(-10%);
+   
+}
+
+.tab-content{
+    padding: 3rem;
 }

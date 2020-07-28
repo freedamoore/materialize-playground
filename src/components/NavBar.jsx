@@ -22,14 +22,14 @@ class NavBar extends Component {
 
                         <ul className="right hide-on-small-only">
                             <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Destinations</a></li>
+                            <li><a href="#">Book Now</a></li>
                             <li>
                                 <a href="#" className="btn-floating cyan darken-4 z-depth-0">
-                                    <i class="material-icons">notifications</i>
+                                    <i class="material-icons">favorite</i>
                                 </a>
                             </li>
-                            <li><span className="badge white-text pink new notifications">5</span></li>
+                            <li><span className="badge white-text pink saved notifications">5 saved</span></li>
                         </ul>
                     </div>
 
@@ -37,9 +37,9 @@ class NavBar extends Component {
 
                 <ul id="slide-out" className="sidenav">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Notifications<span className="badge white-text pink new">5</span></a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">Book Now</a></li>
+                    <li><a href="#">Favorites<span className="badge white-text pink">5 trips saved</span></a></li>
                 </ul>
 
 

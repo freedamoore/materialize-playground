@@ -9,7 +9,7 @@ const CardList = () => {
                 <Card image="/images/maldives.jpg" title="Maldives" />
                 <Card image="/images/nature.jpg" title="Rivers and Mountains" />
                 <Card image="/images/road.jpg" title="Autumn Forest" />
-                <Card image="/images/yellowstone.jpg" title="Yellowstone National Park" />
+                <Card image="/images/yellowstone.jpg" title="Yellowstone Park" />
                 <Card image="/images/bled.jpg" title="Swampy Place" />
             </div>
 

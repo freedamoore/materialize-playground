@@ -1,6 +1,7 @@
+
 .header{
     /* background: linear-gradient(to bottom, rgba(0, 188, 212, 0.8), transparent), url('/images/schrecksee.jpg'); */
-    background:  url('/images/schrecksee.jpg');
+    background:  url('./../assets/schrecksee.jpg');
     background-size: cover;
     background-position: center;
     min-height: 40vh;

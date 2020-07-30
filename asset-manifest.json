@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/materialize-playground/static/css/main.bcc45858.chunk.css",
-    "main.js": "/materialize-playground/static/js/main.ea377260.chunk.js",
-    "main.js.map": "/materialize-playground/static/js/main.ea377260.chunk.js.map",
+    "main.css": "/materialize-playground/static/css/main.78a2e870.chunk.css",
+    "main.js": "/materialize-playground/static/js/main.6369e17d.chunk.js",
+    "main.js.map": "/materialize-playground/static/js/main.6369e17d.chunk.js.map",
     "runtime-main.js": "/materialize-playground/static/js/runtime-main.3d05cf63.js",
     "runtime-main.js.map": "/materialize-playground/static/js/runtime-main.3d05cf63.js.map",
-    "static/js/2.4cbcd2ab.chunk.js": "/materialize-playground/static/js/2.4cbcd2ab.chunk.js",
-    "static/js/2.4cbcd2ab.chunk.js.map": "/materialize-playground/static/js/2.4cbcd2ab.chunk.js.map",
+    "static/js/2.a2347e3d.chunk.js": "/materialize-playground/static/js/2.a2347e3d.chunk.js",
+    "static/js/2.a2347e3d.chunk.js.map": "/materialize-playground/static/js/2.a2347e3d.chunk.js.map",
     "index.html": "/materialize-playground/index.html",
-    "precache-manifest.6c59894b45e02de6654b9bddd8de4520.js": "/materialize-playground/precache-manifest.6c59894b45e02de6654b9bddd8de4520.js",
+    "precache-manifest.77b760e1860e7969b48ff027a7c1a949.js": "/materialize-playground/precache-manifest.77b760e1860e7969b48ff027a7c1a949.js",
     "service-worker.js": "/materialize-playground/service-worker.js",
-    "static/css/main.bcc45858.chunk.css.map": "/materialize-playground/static/css/main.bcc45858.chunk.css.map",
-    "static/js/2.4cbcd2ab.chunk.js.LICENSE.txt": "/materialize-playground/static/js/2.4cbcd2ab.chunk.js.LICENSE.txt"
+    "static/css/main.78a2e870.chunk.css.map": "/materialize-playground/static/css/main.78a2e870.chunk.css.map",
+    "static/js/2.a2347e3d.chunk.js.LICENSE.txt": "/materialize-playground/static/js/2.a2347e3d.chunk.js.LICENSE.txt",
+    "static/media/bled.jpg": "/materialize-playground/static/media/bled.23da5892.jpg",
+    "static/media/boat.jpg": "/materialize-playground/static/media/boat.ab2fced6.jpg",
+    "static/media/maldives.jpg": "/materialize-playground/static/media/maldives.16bafa8c.jpg",
+    "static/media/nature.jpg": "/materialize-playground/static/media/nature.ef7bd1c4.jpg",
+    "static/media/road.jpg": "/materialize-playground/static/media/road.7f94f582.jpg",
+    "static/media/Header.css": "/materialize-playground/static/media/schrecksee.d4bf8240.jpg",
+    "static/media/yellowstone.jpg": "/materialize-playground/static/media/yellowstone.fa4d2663.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.3d05cf63.js",
-    "static/js/2.4cbcd2ab.chunk.js",
-    "static/css/main.bcc45858.chunk.css",
-    "static/js/main.ea377260.chunk.js"
+    "static/js/2.a2347e3d.chunk.js",
+    "static/css/main.78a2e870.chunk.css",
+    "static/js/main.6369e17d.chunk.js"
   ]
 }

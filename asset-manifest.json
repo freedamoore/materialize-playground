@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/materialize-playground/static/css/main.bcc45858.chunk.css",
+    "main.js": "/materialize-playground/static/js/main.ea377260.chunk.js",
+    "main.js.map": "/materialize-playground/static/js/main.ea377260.chunk.js.map",
+    "runtime-main.js": "/materialize-playground/static/js/runtime-main.3d05cf63.js",
+    "runtime-main.js.map": "/materialize-playground/static/js/runtime-main.3d05cf63.js.map",
+    "static/js/2.4cbcd2ab.chunk.js": "/materialize-playground/static/js/2.4cbcd2ab.chunk.js",
+    "static/js/2.4cbcd2ab.chunk.js.map": "/materialize-playground/static/js/2.4cbcd2ab.chunk.js.map",
+    "index.html": "/materialize-playground/index.html",
+    "precache-manifest.6c59894b45e02de6654b9bddd8de4520.js": "/materialize-playground/precache-manifest.6c59894b45e02de6654b9bddd8de4520.js",
+    "service-worker.js": "/materialize-playground/service-worker.js",
+    "static/css/main.bcc45858.chunk.css.map": "/materialize-playground/static/css/main.bcc45858.chunk.css.map",
+    "static/js/2.4cbcd2ab.chunk.js.LICENSE.txt": "/materialize-playground/static/js/2.4cbcd2ab.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d05cf63.js",
+    "static/js/2.4cbcd2ab.chunk.js",
+    "static/css/main.bcc45858.chunk.css",
+    "static/js/main.ea377260.chunk.js"
+  ]
+}

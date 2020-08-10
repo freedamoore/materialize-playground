@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import './StepForm.scss';
 
 const StepForm = () => {
 
@@ -17,37 +18,37 @@ const StepForm = () => {
             <form action="">
                 <ul className="step-form__stepper">
                     <li className="step-form__step step-form__step--1">
-                        <div className="step-form__step-title" onClick={() => showHideSteps(true, false, false)}>1: Select Qualification or Course(s)</div>
+                        <div className="step-form__step-title" onClick={() => showHideSteps(true, false, false)}><span className="step-form__step-number btn-floating">1</span><span>Select Qualification or Course(s)</span></div>
                         {showStepOne && 
                             <div className="step-form__step-body">
                                 <div className="step-form__step-content">Qualifications form component will go here</div>
                                 <div className="step-form__step-action">
-                                    <a className="waves-effect waves-dark btn-small" onClick={() => showHideSteps(false, true, false)}>CONTINUE</a>
+                                    <a className="waves-effect waves-dark btn" onClick={() => showHideSteps(false, true, false)}>CONTINUE</a>
                                 </div>
                             </div>
                         }
                     </li>
                     <li className="step-form__step step-form__step--2">
-                        <div className="step-form__step-title" onClick={() => showHideSteps(false, true, false)}>2: Contact Details</div>
+                        <div className="step-form__step-title" onClick={() => showHideSteps(false, true, false)}><span className="step-form__step-number btn-floating">2</span><span>Contact Details</span></div>
                         {showStepTwo && 
                             <div className="step-form__step-body">
                                 <div className="step-form__step-content">Contact Details form component will go here</div>
                                 <div className="step-form__step-action">
-                                    <a class="" onClick={() => showHideSteps(true, false, false)}>BACK</a>
-                                    <a className="waves-effect waves-dark btn-small" onClick={() => showHideSteps(false, false, true)}>CONTINUE</a>
+                                    <a className="btn-flat transparent teal-text" onClick={() => showHideSteps(true, false, false)}>BACK</a>
+                                    <a className="waves-effect waves-dark btn" onClick={() => showHideSteps(false, false, true)}>CONTINUE</a>
                                 </div>
                             </div>
                         }
                     </li>
                     <li className="step-form__step step-form__step--3">
-                        <div className="step-form__step-title" onClick={() => showHideSteps(false, false, true)}>3: VET data collection</div>
+                        <div className="step-form__step-title" onClick={() => showHideSteps(false, false, true)}><span className="step-form__step-number btn-floating">3</span><span> VET data collection</span></div>
                         {showStepThree && 
                             <div className="step-form__step-body">
                                 <div className="step-form__step-content">VET data collection component will go here</div>
                                 <div className="step-form__step-action">
-                                    <a class="" onClick={() => showHideSteps(false, true, false)}>BACK</a>
-                                    <button class="btn-small waves-effect waves-light" type="submit" name="action">Submit
-                                        <i class="material-icons right">send</i>
+                                    <a className="btn-flat transparent teal-text" onClick={() => showHideSteps(false, true, false)}>BACK</a>
+                                    <button className="btn waves-effect waves-light" type="submit" name="action">Submit
+                                        <i className="material-icons right">send</i>
                                     </button>
                                 </div>
                             </div>

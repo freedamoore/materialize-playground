@@ -1,0 +1,49 @@
+.step-form{
+    transition: all .5s;
+    &__step{
+        margin-bottom: 2rem;
+        
+    }
+
+    &__step-title{
+        display: flex;
+        align-items: center;
+    }   
+
+    &__step-number{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1rem;
+    }
+
+    &__step-body{
+        margin-left: 1.5rem;
+        border-left: 1px solid teal;
+        animation: moveInTop .5s ease-out;
+    }  
+
+    &__step-content{
+        margin: 2rem;
+        
+    }
+
+    &__step-action{
+        margin: 2rem;
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+    }
+}
+
+@keyframes moveInTop {
+    0% {
+      opacity: 0;
+      transform: translateY(-3rem);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }

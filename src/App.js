@@ -4,6 +4,8 @@ import Header from './components/Header';
 import CardList from './components/CardList';
 import Footer from './components/Footer';
 import Tabs from './components/Tabs';
+import Carousel from './components/Carousel';
+import StepForm from './components/StepForm';
 
 function App() {
 
@@ -12,6 +14,8 @@ function App() {
       <Header />
       <Tabs />
       <CardList />
+      <Carousel /> 
+      <StepForm />
       <Footer />
     </div>
   );

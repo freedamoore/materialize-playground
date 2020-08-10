@@ -10,7 +10,7 @@ import StepForm from './components/StepForm';
 function App() {
 
   return (
-    <div className="App">
+    <div className="App">      
       <Header />
       <Tabs />
       <CardList />

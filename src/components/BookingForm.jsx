@@ -12,6 +12,9 @@ class BookingForm extends Component {
         document.addEventListener('DOMContentLoaded', function () {
             var elems = document.querySelectorAll('.datepicker');
             var instances = M.Datepicker.init(elems, {});
+
+            var elemselect = document.querySelectorAll('select');
+    var instanceselect = M.FormSelect.init(elemselect, {});
         });
 
     }
@@ -52,7 +55,7 @@ class BookingForm extends Component {
                         </div> : null}
                     <div className="input-field right">
                         <button className="btn">Submit</button>
-                    </div>
+                    </div>      
                 </form>
             </div>
         );

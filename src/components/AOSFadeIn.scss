@@ -1,0 +1,22 @@
+.aos-fade-in{
+    height: 80vh;
+    background-color: peachpuff;
+    margin: 2rem 0;
+    // padding: 2rem;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+
+    &__item{
+        width: 200px;
+        height: 100px;
+        background-color: salmon;
+        border: 2px solid palegoldenrod;
+        color: white;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+}

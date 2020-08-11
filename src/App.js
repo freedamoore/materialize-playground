@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Tabs from './components/Tabs';
 import Carousel from './components/Carousel';
 import StepForm from './components/StepForm';
+import AOSFadeIn from './components/AOSFadeIn';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Tabs />
       <CardList />
       <Carousel /> 
+      <AOSFadeIn />
       <StepForm />
       <Footer />
     </div>

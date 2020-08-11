@@ -18,10 +18,13 @@ const StepForm = () => {
             <form action="">
                 <ul className="step-form__stepper">
                     <li className="step-form__step step-form__step--1">
-                        <div className="step-form__step-title" onClick={() => showHideSteps(true, false, false)}><span className="step-form__step-number btn-floating">1</span><span>Select Qualification or Course(s)</span></div>
+                        <div className="step-form__step-title" onClick={() => showHideSteps(true, false, false)}>
+                            <span className="step-form__step-number btn-floating">1</span>
+                            <span>Title 1</span>
+                        </div>
                         <div className="step-form__step-body" style={{display:showStepOne?"block":"none"}}>
                             <div className="step-form__step-content">
-                            Qualification component will go here
+                                Plug in component one here
                             </div>
                             <div className="step-form__step-action">
                                 <a className="waves-effect waves-dark btn" onClick={() => showHideSteps(false, true, false)}>CONTINUE</a>
@@ -29,10 +32,13 @@ const StepForm = () => {
                         </div>
                     </li>
                     <li className="step-form__step step-form__step--2">
-                        <div className="step-form__step-title" onClick={() => showHideSteps(false, true, false)}><span className="step-form__step-number btn-floating">2</span><span>Contact Details</span></div>
+                        <div className="step-form__step-title" onClick={() => showHideSteps(false, true, false)}>
+                            <span className="step-form__step-number btn-floating">2</span>
+                            <span>Title 2</span>
+                        </div>
                         <div className="step-form__step-body" style={{display:showStepTwo?"block":"none"}}>
                             <div className="step-form__step-content">
-                                Contact Details form component will go here
+                                Plug in component two here
                             </div>
                             <div className="step-form__step-action">
                                 <a className="btn-flat transparent teal-text" onClick={() => showHideSteps(true, false, false)}>BACK</a>
@@ -41,10 +47,12 @@ const StepForm = () => {
                         </div>
                     </li>
                     <li className="step-form__step step-form__step--3">
-                        <div className="step-form__step-title" onClick={() => showHideSteps(false, false, true)}><span className="step-form__step-number btn-floating">3</span><span> VET data collection</span></div>
+                        <div className="step-form__step-title" onClick={() => showHideSteps(false, false, true)}>
+                            <span className="step-form__step-number btn-floating">3</span>
+                            <span> Title 3</span></div>
                         <div className="step-form__step-body" style={{display:showStepThree?"block":"none"}}>
                             <div className="step-form__step-content">
-                                VET data collection component will go here
+                                Plug in component three here
                             </div>
                             <div className="step-form__step-action">
                                 <a className="btn-flat transparent teal-text" onClick={() => showHideSteps(false, true, false)}>BACK</a>
